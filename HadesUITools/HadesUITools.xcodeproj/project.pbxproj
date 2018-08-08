@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2835F3BE21192EB800DB1044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2835F3BD21192EB800DB1044 /* AppDelegate.m */; };
+		2835F3C121192EB800DB1044 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2835F3C021192EB800DB1044 /* ViewController.m */; };
+		2835F3C421192EB800DB1044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2835F3C221192EB800DB1044 /* Main.storyboard */; };
+		2835F3C621192EBA00DB1044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2835F3C521192EBA00DB1044 /* Assets.xcassets */; };
+		2835F3C921192EBA00DB1044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2835F3C721192EBA00DB1044 /* LaunchScreen.storyboard */; };
+		2835F3CC21192EBA00DB1044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2835F3CB21192EBA00DB1044 /* main.m */; };
+		2838A69C211A885F005AC5FD /* HadesUITools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2838A69B211A885F005AC5FD /* HadesUITools.podspec */; };
+		28544FBB21199F4B005578F0 /* HadesUITools.m in Sources */ = {isa = PBXBuildFile; fileRef = 28544FBA21199F4B005578F0 /* HadesUITools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2835F3B921192EB800DB1044 /* HadesUITools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HadesUITools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2835F3BC21192EB800DB1044 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2835F3BD21192EB800DB1044 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2835F3BF21192EB800DB1044 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2835F3C021192EB800DB1044 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2835F3C321192EB800DB1044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2835F3C521192EBA00DB1044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2835F3C821192EBA00DB1044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2835F3CA21192EBA00DB1044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2835F3CB21192EBA00DB1044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2838A69B211A885F005AC5FD /* HadesUITools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HadesUITools.podspec; sourceTree = SOURCE_ROOT; };
+		28544FB921199F4B005578F0 /* HadesUITools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HadesUITools.h; sourceTree = "<group>"; };
+		28544FBA21199F4B005578F0 /* HadesUITools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HadesUITools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2835F3B621192EB800DB1044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2835F3B021192EB800DB1044 = {
+			isa = PBXGroup;
+			children = (
+				2835F3BB21192EB800DB1044 /* HadesUITools */,
+				2835F3BA21192EB800DB1044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2835F3BA21192EB800DB1044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2835F3B921192EB800DB1044 /* HadesUITools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2835F3BB21192EB800DB1044 /* HadesUITools */ = {
+			isa = PBXGroup;
+			children = (
+				2838A69B211A885F005AC5FD /* HadesUITools.podspec */,
+				2835F3BC21192EB800DB1044 /* AppDelegate.h */,
+				2835F3BD21192EB800DB1044 /* AppDelegate.m */,
+				2835F3BF21192EB800DB1044 /* ViewController.h */,
+				2835F3C021192EB800DB1044 /* ViewController.m */,
+				28544FB821199F4B005578F0 /* HadesUITools */,
+				2835F3C221192EB800DB1044 /* Main.storyboard */,
+				2835F3C521192EBA00DB1044 /* Assets.xcassets */,
+				2835F3C721192EBA00DB1044 /* LaunchScreen.storyboard */,
+				2835F3CA21192EBA00DB1044 /* Info.plist */,
+				2835F3CB21192EBA00DB1044 /* main.m */,
+			);
+			path = HadesUITools;
+			sourceTree = "<group>";
+		};
+		28544FB821199F4B005578F0 /* HadesUITools */ = {
+			isa = PBXGroup;
+			children = (
+				28544FB921199F4B005578F0 /* HadesUITools.h */,
+				28544FBA21199F4B005578F0 /* HadesUITools.m */,
+			);
+			path = HadesUITools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2835F3B821192EB800DB1044 /* HadesUITools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2835F3CF21192EBA00DB1044 /* Build configuration list for PBXNativeTarget "HadesUITools" */;
+			buildPhases = (
+				2835F3B521192EB800DB1044 /* Sources */,
+				2835F3B621192EB800DB1044 /* Frameworks */,
+				2835F3B721192EB800DB1044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HadesUITools;
+			productName = HadesUITools;
+			productReference = 2835F3B921192EB800DB1044 /* HadesUITools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2835F3B121192EB800DB1044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "王浩祯";
+				TargetAttributes = {
+					2835F3B821192EB800DB1044 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 2835F3B421192EB800DB1044 /* Build configuration list for PBXProject "HadesUITools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2835F3B021192EB800DB1044;
+			productRefGroup = 2835F3BA21192EB800DB1044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2835F3B821192EB800DB1044 /* HadesUITools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2835F3B721192EB800DB1044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2838A69C211A885F005AC5FD /* HadesUITools.podspec in Resources */,
+				2835F3C921192EBA00DB1044 /* LaunchScreen.storyboard in Resources */,
+				2835F3C621192EBA00DB1044 /* Assets.xcassets in Resources */,
+				2835F3C421192EB800DB1044 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2835F3B521192EB800DB1044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2835F3C121192EB800DB1044 /* ViewController.m in Sources */,
+				28544FBB21199F4B005578F0 /* HadesUITools.m in Sources */,
+				2835F3CC21192EBA00DB1044 /* main.m in Sources */,
+				2835F3BE21192EB800DB1044 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2835F3C221192EB800DB1044 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2835F3C321192EB800DB1044 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2835F3C721192EBA00DB1044 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2835F3C821192EBA00DB1044 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2835F3CD21192EBA00DB1044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2835F3CE21192EBA00DB1044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2835F3D021192EBA00DB1044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89FKMN349J;
+				INFOPLIST_FILE = HadesUITools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whz.HadesUITools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2835F3D121192EBA00DB1044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89FKMN349J;
+				INFOPLIST_FILE = HadesUITools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whz.HadesUITools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2835F3B421192EB800DB1044 /* Build configuration list for PBXProject "HadesUITools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2835F3CD21192EBA00DB1044 /* Debug */,
+				2835F3CE21192EBA00DB1044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2835F3CF21192EBA00DB1044 /* Build configuration list for PBXNativeTarget "HadesUITools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2835F3D021192EBA00DB1044 /* Debug */,
+				2835F3D121192EBA00DB1044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2835F3B121192EB800DB1044 /* Project object */;
+}
