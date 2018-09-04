@@ -13,7 +13,7 @@
 		2835F3C621192EBA00DB1044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2835F3C521192EBA00DB1044 /* Assets.xcassets */; };
 		2835F3C921192EBA00DB1044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2835F3C721192EBA00DB1044 /* LaunchScreen.storyboard */; };
 		2835F3CC21192EBA00DB1044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2835F3CB21192EBA00DB1044 /* main.m */; };
-		2838A69C211A885F005AC5FD /* HadesUITools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2838A69B211A885F005AC5FD /* HadesUITools.podspec */; };
+		2838A69E211AC7BB005AC5FD /* HadesUITools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2838A69D211AC7BB005AC5FD /* HadesUITools.podspec */; };
 		28544FBB21199F4B005578F0 /* HadesUITools.m in Sources */ = {isa = PBXBuildFile; fileRef = 28544FBA21199F4B005578F0 /* HadesUITools.m */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		2835F3C821192EBA00DB1044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2835F3CA21192EBA00DB1044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2835F3CB21192EBA00DB1044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2838A69B211A885F005AC5FD /* HadesUITools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HadesUITools.podspec; sourceTree = SOURCE_ROOT; };
+		2838A69D211AC7BB005AC5FD /* HadesUITools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HadesUITools.podspec; sourceTree = SOURCE_ROOT; };
 		28544FB921199F4B005578F0 /* HadesUITools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HadesUITools.h; sourceTree = "<group>"; };
 		28544FBA21199F4B005578F0 /* HadesUITools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HadesUITools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,8 +63,8 @@
 		2835F3BB21192EB800DB1044 /* HadesUITools */ = {
 			isa = PBXGroup;
 			children = (
-				2838A69B211A885F005AC5FD /* HadesUITools.podspec */,
 				2835F3BC21192EB800DB1044 /* AppDelegate.h */,
+				2838A69D211AC7BB005AC5FD /* HadesUITools.podspec */,
 				2835F3BD21192EB800DB1044 /* AppDelegate.m */,
 				2835F3BF21192EB800DB1044 /* ViewController.h */,
 				2835F3C021192EB800DB1044 /* ViewController.m */,
@@ -144,7 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2838A69C211A885F005AC5FD /* HadesUITools.podspec in Resources */,
+				2838A69E211AC7BB005AC5FD /* HadesUITools.podspec in Resources */,
 				2835F3C921192EBA00DB1044 /* LaunchScreen.storyboard in Resources */,
 				2835F3C621192EBA00DB1044 /* Assets.xcassets in Resources */,
 				2835F3C421192EB800DB1044 /* Main.storyboard in Resources */,

@@ -107,8 +107,34 @@ NS_ASSUME_NONNULL_BEGIN
 
 NS_ASSUME_NONNULL_END
 
+#pragma mark - ❀==============❂ logTextView ❂==============❀
++(UITextView *)logViewInitWithFrame:(CGRect)rect delegate:(id)delegate{
+    UITextView* view = [UITextView new];
+    
+    view.delegate = delegate;
+    
+    view.editable = NO;
+    
+    view.frame = rect;
+    
+    view.backgroundColor = [UIColor blackColor];
+    
+    view.textColor = [UIColor whiteColor];
+    
+    view.layoutManager.allowsNonContiguousLayout = NO;
+    
+    return view;
+}
 
-
++(void)addText:(NSString *)str ToTextView:(UITextView *)textView{
+    NSString* saveStr = textView.text;
+    
+    saveStr = [saveStr stringByAppendingFormat:@"\n\n%@",str];
+    
+    textView.text = saveStr;
+    
+    [textView scrollRangeToVisible:NSMakeRange(textView.text.length, 1)];
+}
 
 
 

@@ -57,6 +57,16 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(void)HadesAddsubviewWithDictionary:(NSDictionary *)dictionary superView:(UIView *)superView;
 
+/**
+ 可视化控制台textview
+ */
++(UITextView *)logViewInitWithFrame:(CGRect)rect delegate:(id)delegate;
+/**
+ textview显示日志方法
+ */
++(void)addText:(NSString *)str ToTextView:(UITextView *)textView;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -11,7 +11,9 @@
 #define sc_width self.view.bounds.size.width
 #define sc_heigth self.view.bounds.size.heigth
 @interface ViewController ()
-
+{
+    UITextView* textview;
+}
 @end
 
 @implementation ViewController
@@ -43,12 +45,16 @@
     
     [HadesUITools HadesAddsubviewWithDictionary:dic superView:self.view];
     
+    textview = [HadesUITools logViewInitWithFrame:CGRectMake(20, 200, 100, 100) delegate:self];
+    [self.view addSubview:textview];
+    
+    
     
 }
 
 -(void)btn_action:(UIButton *)btn{
     UIButton* temp = btn;
-    NSLog(@"%@",temp.titleLabel.text);
+    [HadesUITools addText:[NSString stringWithFormat:@"%@",temp.titleLabel.text] ToTextView:textview];
 }
 
 @end

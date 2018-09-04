@@ -9,8 +9,8 @@ s.homepage = "https://github.com/Hadesxiye/HadesUITools"
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = { "Wanghaozhen" => "471692847@qq.com" }
 s.ios.deployment_target = '8.0'
-s.source = { :git => "https://github.com/Hadesxiye/HadesUITools.git", :commit => "63246e0" }
-s.source_files = "code/*.(h.m)"
+s.source = { :git => "https://github.com/Hadesxiye/HadesUITools.git", :tag =>"0.0.1" }
+s.source_files = "code"
 s.requires_arc = true
 s.framework = "UIKit"
 end
